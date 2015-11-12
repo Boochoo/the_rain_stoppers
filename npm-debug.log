@@ -1,0 +1,117 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'angular.min.js' ]
+2 info using npm@2.10.1
+3 info using node@v0.12.2
+4 verbose node symlink /usr/local/bin/node
+5 verbose install initial load of /Users/boochoo/Documents/projects/package.json
+6 verbose installManyTop reading scoped package data from /Users/boochoo/Documents/projects/node_modules/grunt/package.json
+7 verbose installManyTop reading scoped package data from /Users/boochoo/Documents/projects/node_modules/grunt-karma/package.json
+8 verbose installManyTop reading scoped package data from /Users/boochoo/Documents/projects/node_modules/gulp/package.json
+9 verbose installManyTop reading scoped package data from /Users/boochoo/Documents/projects/node_modules/gulp-autoprefixer/package.json
+10 verbose installManyTop reading scoped package data from /Users/boochoo/Documents/projects/node_modules/gulp-cache/package.json
+11 verbose installManyTop reading scoped package data from /Users/boochoo/Documents/projects/node_modules/gulp-connect/package.json
+12 verbose installManyTop reading scoped package data from /Users/boochoo/Documents/projects/node_modules/gulp-filter/package.json
+13 verbose installManyTop reading scoped package data from /Users/boochoo/Documents/projects/node_modules/gulp-imagemin/package.json
+14 verbose installManyTop reading scoped package data from /Users/boochoo/Documents/projects/node_modules/gulp-jshint/package.json
+15 verbose installManyTop reading scoped package data from /Users/boochoo/Documents/projects/node_modules/gulp-karma/package.json
+16 verbose installManyTop reading scoped package data from /Users/boochoo/Documents/projects/node_modules/gulp-load-plugins/package.json
+17 verbose installManyTop reading scoped package data from /Users/boochoo/Documents/projects/node_modules/gulp-minify-css/package.json
+18 verbose installManyTop reading scoped package data from /Users/boochoo/Documents/projects/node_modules/gulp-ng-annotate/package.json
+19 verbose installManyTop reading scoped package data from /Users/boochoo/Documents/projects/node_modules/gulp-plumber/package.json
+20 verbose installManyTop reading scoped package data from /Users/boochoo/Documents/projects/node_modules/gulp-rev/package.json
+21 verbose installManyTop reading scoped package data from /Users/boochoo/Documents/projects/node_modules/gulp-rev-replace/package.json
+22 verbose installManyTop reading scoped package data from /Users/boochoo/Documents/projects/node_modules/gulp-sass/package.json
+23 verbose installManyTop reading scoped package data from /Users/boochoo/Documents/projects/node_modules/gulp-uglify/package.json
+24 verbose installManyTop reading scoped package data from /Users/boochoo/Documents/projects/node_modules/gulp-useref/package.json
+25 verbose installManyTop reading scoped package data from /Users/boochoo/Documents/projects/node_modules/gulp-util/package.json
+26 verbose installManyTop reading scoped package data from /Users/boochoo/Documents/projects/node_modules/gulp-watch/package.json
+27 verbose installManyTop reading scoped package data from /Users/boochoo/Documents/projects/node_modules/jasmine-core/package.json
+28 verbose installManyTop reading scoped package data from /Users/boochoo/Documents/projects/node_modules/jshint-stylish/package.json
+29 verbose installManyTop reading scoped package data from /Users/boochoo/Documents/projects/node_modules/karma/package.json
+30 verbose installManyTop reading scoped package data from /Users/boochoo/Documents/projects/node_modules/karma-jasmine/package.json
+31 verbose installManyTop reading scoped package data from /Users/boochoo/Documents/projects/node_modules/karma-phantomjs-launcher/package.json
+32 verbose installManyTop reading scoped package data from /Users/boochoo/Documents/projects/node_modules/lazypipe/package.json
+33 verbose installManyTop reading scoped package data from /Users/boochoo/Documents/projects/node_modules/open/package.json
+34 verbose installManyTop reading scoped package data from /Users/boochoo/Documents/projects/node_modules/phantomjs/package.json
+35 verbose installManyTop reading scoped package data from /Users/boochoo/Documents/projects/node_modules/rimraf/package.json
+36 verbose installManyTop reading scoped package data from /Users/boochoo/Documents/projects/node_modules/run-sequence/package.json
+37 verbose installManyTop reading scoped package data from /Users/boochoo/Documents/projects/node_modules/wiredep/package.json
+38 info package.json grunt@0.4.5 No license field.
+39 info package.json wiredep@2.2.2 No license field.
+40 info package.json lazypipe@0.2.4 No license field.
+41 verbose readDependencies loading dependencies from /Users/boochoo/Documents/projects/package.json
+42 silly cache add args [ 'angular.min.js', null ]
+43 verbose cache add spec angular.min.js
+44 silly cache add parsed spec { raw: 'angular.min.js',
+44 silly cache add   scope: null,
+44 silly cache add   name: 'angular.min.js',
+44 silly cache add   rawSpec: '',
+44 silly cache add   spec: '*',
+44 silly cache add   type: 'range' }
+45 silly addNamed angular.min.js@*
+46 verbose addNamed "*" is a valid semver range for angular.min.js
+47 silly addNameRange { name: 'angular.min.js', range: '*', hasData: false }
+48 silly mapToRegistry name angular.min.js
+49 silly mapToRegistry using default registry
+50 silly mapToRegistry registry https://registry.npmjs.org/
+51 silly mapToRegistry uri https://registry.npmjs.org/angular.min.js
+52 verbose addNameRange registry:https://registry.npmjs.org/angular.min.js not in flight; fetching
+53 verbose request uri https://registry.npmjs.org/angular.min.js
+54 verbose request no auth needed
+55 info attempt registry request try #1 at 17:01:18
+56 verbose request id bab96119e08e6fe1
+57 http request GET https://registry.npmjs.org/angular.min.js
+58 http 404 https://registry.npmjs.org/angular.min.js
+59 verbose headers { 'content-type': 'application/json',
+59 verbose headers   'cache-control': 'max-age=0',
+59 verbose headers   'content-length': '2',
+59 verbose headers   'accept-ranges': 'bytes',
+59 verbose headers   date: 'Wed, 28 Oct 2015 15:01:18 GMT',
+59 verbose headers   via: '1.1 varnish',
+59 verbose headers   age: '0',
+59 verbose headers   connection: 'keep-alive',
+59 verbose headers   'x-served-by': 'cache-fra1245-FRA',
+59 verbose headers   'x-cache': 'MISS',
+59 verbose headers   'x-cache-hits': '0',
+59 verbose headers   'x-timer': 'S1446044478.887626,VS0,VE104' }
+60 silly get cb [ 404,
+60 silly get   { 'content-type': 'application/json',
+60 silly get     'cache-control': 'max-age=0',
+60 silly get     'content-length': '2',
+60 silly get     'accept-ranges': 'bytes',
+60 silly get     date: 'Wed, 28 Oct 2015 15:01:18 GMT',
+60 silly get     via: '1.1 varnish',
+60 silly get     age: '0',
+60 silly get     connection: 'keep-alive',
+60 silly get     'x-served-by': 'cache-fra1245-FRA',
+60 silly get     'x-cache': 'MISS',
+60 silly get     'x-cache-hits': '0',
+60 silly get     'x-timer': 'S1446044478.887626,VS0,VE104' } ]
+61 verbose stack Error: Registry returned 404 for GET on https://registry.npmjs.org/angular.min.js
+61 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:239:14)
+61 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:170:14)
+61 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:368:22)
+61 verbose stack     at Request.emit (events.js:110:17)
+61 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1219:14)
+61 verbose stack     at Request.emit (events.js:129:20)
+61 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1167:12)
+61 verbose stack     at IncomingMessage.emit (events.js:129:20)
+61 verbose stack     at _stream_readable.js:908:16
+61 verbose stack     at process._tickCallback (node.js:355:11)
+62 verbose statusCode 404
+63 verbose pkgid angular.min.js
+64 verbose cwd /Users/boochoo/Documents/projects/weather
+65 error Darwin 14.0.0
+66 error argv "node" "/usr/local/bin/npm" "install" "angular.min.js"
+67 error node v0.12.2
+68 error npm  v2.10.1
+69 error code E404
+70 error 404 Registry returned 404 for GET on https://registry.npmjs.org/angular.min.js
+70 error 404
+70 error 404 'angular.min.js' is not in the npm registry.
+70 error 404 You should bug the author to publish it (or use the name yourself!)
+70 error 404 It was specified as a dependency of 'projects'
+70 error 404
+70 error 404 Note that you can also install from a
+70 error 404 tarball, folder, http url, or git url.
+71 verbose exit [ 1, true ]
